@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-top: 10px;
+}
+
+nav ul li a{
+  color: #b5ad07;
+  font-size: smaller;
+}
+
+nav ul li:active {
+  border-bottom: 1px solid #696767;
+  padding-bottom: 5px;
+}
+
+/* nav ul li:target {
+  border-bottom: 1px solid #696767;
+  padding-bottom: 5px;
+} */
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.logo {
+  font-size: 1.8em;
+  letter-spacing: 3px;
+  color: rgba(55, 50, 50, 0.869);
+}
+
+.logo-s {
+  color: #696767;
+  font-size: x-small;
+}
+
+main {
+  padding: 0 20px;
+  font-size: larger;
+  line-height: 30px;
+}
+
+h4 {
+  color: rgba(55, 50, 50, 0.869);
+  padding: 10px 0;
+}
+
+span {
+  color: rgba(55, 50, 50, 0.869);
+  font-size: larger;
+  text-decoration: underline;
+}
+
+.lang {
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+}
+
+.btn button {
+  /* width: 80%; */
+  padding: 6px;
+  font-size: 1.8em;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 20px 30px;
+    text-transform: uppercase;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  nav ul li a{
+    color: #696767;
+    font-size: large;
+  }
+  
+  nav ul li:hover {
+    border-bottom: 1px solid #696767;
+    padding-bottom: 5px;
+  }
+  
+  .div1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    letter-spacing: 3px;
+    color: rgba(55, 50, 50, 0.869);
+  }
+  
+  .logo-s {
+    color: #696767;
+    font-size: smaller;
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: larger;
+    line-height: 30px;
+  }
+  
+  h4 {
+    color: rgba(55, 50, 50, 0.869);
+  }
+  
+  span {
+    color: rgba(55, 50, 50, 0.869);
+    font-size: larger;
+    text-decoration: underline;
+  }
+
+  .lang {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+
+  .lang li {
+    background-color: #b5ac0720;
+    padding: 3px 7px;
+    border-radius: 10px;
+  }
+
+  .list {
+    list-style-type: initial;
+  }
+
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: flex-start;
+  }
+
+  .btn button {
+    width: 10em;
+    padding: 10px;
+    font-size: 1.8em;
+  }
+}

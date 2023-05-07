@@ -1,0 +1,27 @@
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+  <%- include('./partials/nav.ejs') %>
+  <main>
+    <section>
+      <p>In the past, Javascript was confined to run in the browser, and we used it to add interactivity to our websites.
+        So Javascript is a frontend language on its own.</p>
+      <p>But with the help of Node.js, we can use Javascript as a server side language (for backend)..
+        Computers cannot directly understand Javascript or compile it down to machine code, but browsers have an 
+        engine called the V8 engine, written in C++ by Google which compiles Javascript into machine code at runtime. 
+      </p>
+      <p>So outside the browser, Javascript won't run because there is not V8 engine to compile it to machine code.
+        But with Node.js, which is a program also written in C++ and wraps the V8 engine and runs directly on our computers, 
+        we can now compile our Javascript into machine code on our computers.
+      </p>
+      <p>Running outside the browser and running it on the server as a backend to our website, we lose access to 
+        Javascript features such as the Document Object Model (DOM).
+      </p>
+      <p>So basically, the role of Node.js in a website is basically to run Javascript on the backend or server side
+        and we're going to be handling requests coming in from a browser.
+      </p>
+    </section>
+  </main>
+  <footer></footer>
+</body>
+</html>
