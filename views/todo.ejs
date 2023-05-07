@@ -1,0 +1,14 @@
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+  <%- include('./partials/nav.ejs') %>
+  <main>
+    <ul class="list">
+      <% todos.forEach((todo) => { %>
+        <li><%= todo %></li>
+      <% }) %>
+    </ul>
+  </main>
+  <footer></footer>
+</body>
+</html>

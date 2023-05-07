@@ -1,0 +1,19 @@
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+<body>
+  <%- include('./partials/nav.ejs') %>
+  <main>
+    <p>I've been able to broaden my knowledge as a programmer, expanding my knowledge.</p>
+    <p>I've been able to do some sort of revision in all the programming languages i know..</p>
+    <ul class="lang">
+    <% languages.forEach((language) => { %>
+      <li><%= language %></li>
+    <% }) %>
+    </ul>
+    <p>I recently started learning SQL and while going through my Express course, I got introduced
+    to mongoDB which is a NoSQL, so i look forward to learning more about both SQL and NoSQL and Upskilling!!
+    </p>
+  </main>
+  <footer></footer>
+</body>
+</html>
